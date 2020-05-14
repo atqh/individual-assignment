@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body 
+{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;   
+}
+.container
+{
+   width: 1300px;
+   margin: 70px auto 0;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.container .box
+{
+   position: relative;
+   width: 300px;
+   height: 300px;
+   background: #6495ED;
+   margin: 10px;
+   box-sizing: border-box;
+   display: inline-block;
+}
+.container .box .imgBox
+{
+   position: relative;
+   overflow: hidden;
+}
+.container .box .imgBox img
+{
+   object-fit: cover; 
+   width: 300px;
+   height: 300px;
+   transition: transform 2s;
+}
+.container .box:hover .imgBox img
+{
+   transform: scale(1.2);
+}
+.container .box .details
+{
+   position: absolute;
+   top: 10px;
+   Left: 10px;
+   bottom: 1px;
+   right: 10px;
+   background: rgba(0,0,0,.8);
+   transform: scaleY(0);
+   transition: transform .5s;
+}
+.container .box:hover .details
+{
+   transform: scaleY(1);
+}
+.container .box .details .content
+{
+   position: absolute;
+   top: 120px;
+   transform: translateY(-50%);
+   text-align: center;
+   padding: 15px;
+   color:#fff;    
+}
+.container .box .details .content h2
+{
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+   color: #ff0
+}
+.container .box .details .content p
+{
+   margin: 10px 0 0;
+   padding: 0;
+}
+</style>
+
+   <meta charset="utf-8">
+   <title>
+     family backgrounds
+   </title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body background="image/latar.jpg">
+    <h1 align="center">
+     <font face="lato" color="#3A098A" size="10">MY FAMILY</font>
+   </h1>
+   <h3 align="center">
+      <font face= "cinzel">
+      <span style="border: 2px solid white"><a href="index.html">HOME</a></span>
+      <span style="border: 2px solid white"><a href="me.html">ABOUT ME</a></span> 
+      <span style="border: 2px solid white"><a href="edu.html">EDUCATION</a></span>
+      <span style="border: 2px solid white"><a href="fam.html">FAMILY</a></span> 
+      <span style="border: 2px solid white"><a href="ach.html">ACHIEVEMENT</a></span>
+      <span style="border: 2px solid white"><a href="gal.html">GALLERY</a></span>
+   </h3>
+    <div class="container">
+       <div class="box">
+         <div class="imgBox">
+            <img src="image/fam.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>HAWA</h2>
+            <p>This is my little family,
+let me introduce to you about my family.
+
+I have a beloved parent and five siblings,
+ I have 2 older brothers and 2 older sisters.
+
+I'm the youngest sister.</p>
+            </div>
+         </div>
+       </div>
+      
+       <div class="box">
+           <div class="imgBox">
+              <img src="image/ayah.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>Hamdan Yusi Bin Yusof</h2>
+            <p>This is my Father,
+
+<br>He is 57 years old. he is a 
+<br>retired government employee.
+
+<br>My father is a very kind and
+ <br>hardworking person.
+
+<br>He had a dream to have his 
+<br>own farm because he loves animals accept cats.
+
+<br>My father teaches me how to 
+<br>become confident when 
+<br>talking to the public. 
+</p>
+            </div>
+         </div>
+       </div>
+       
+         <div class="box">
+           <div class="imgBox">
+              <img src="image/umi.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>Salawati Bt Hasan</h2>
+            <p>This is my mother,
+She is 50 years old my mother is a housewife.
+She is so amazing because he can cook, baked,
+and sewing. I don't have to buy 'baju kurung' at the store because my mother can make it for me.
+My mother loves cat</p>
+            </div>
+         </div>
+       </div>
+       
+       <div class="box">
+           <div class="imgBox">
+              <img src="image/abg.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>Adam Asyraf Bin Hamdan Yusi</h2>
+            <p>This is my older brother.
+<br>He is 28years old. My brother <br>got married in 2017.
+Now he had one son.
+<br>My brother is a master of <br>cooking especially western food.
+<br>He had his own restaurant <br>which serves western food.</p>
+            </div>
+         </div>
+       </div>
+
+       <div class="box">
+           <div class="imgBox">
+              <img src="image/kakak.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>Adibah Bt Hamdan Yusi</h2>
+            <p>This is my Sister,
+<br>He is 27years old. She is a housewive.
+<br>She had a cute little daughter.
+<br>My sister is so kind and <br>concern about our family.
+<br>My sister welcomed us to <br>come to her house.
+<br>She will cook various types of <br>food for us.</p>
+            </div>
+         </div>
+       </div>
+
+       <div class="box">
+           <div class="imgBox">
+              <img src="image/abgcik.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>Alhami Hussien Bin Hamdan Yusi</h2>
+            <p>This is my brother,
+He 25 years old. He is now studied his degree.
+My brother had a beautiful voice.
+I love to hear he recite the Quran.
+He loves to travel and take a picture.</p>
+            </div>
+         </div>
+       </div>
+       
+       <div class="box">
+           <div class="imgBox">
+              <img src="image/kteh.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>Anis Adilah Bt Hamdan Yusi</h2>
+            <p>This is my sister
+She is 22 years old and nows studied at University Malaya.
+He loves to cook and bake.
+Whenever she cooks she will ask me to taste it.
+She always bought me food, such as chocolate and ice cream</p>
+            </div>
+         </div>
+       </div>
+
+       <div class="box">
+           <div class="imgBox">
+              <img src="image/me.jpg">
+         </div>
+         <div class="details">
+            <div class="content">
+            <h2>Atiqah Al -Insyirah Bt Hamdan Yusi</h2>
+            <p>This is me.
+I'm the youngest sibling in my family. 
+I love <a href="pet.html">animals</a>animals so much here some of the animals that
+I had before.
+I also love editing video when I'm bored here some of my <a href="vid.html">videos</a></p>
+            </div>
+         </div>
+       </div>
+<embed src="audio/v.mp3" autoplay="true" hidden="true" loop="true"></embed>
+</body>
+</html>
